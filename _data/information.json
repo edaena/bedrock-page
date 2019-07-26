@@ -1,0 +1,15 @@
+[
+    {
+      "title": "Why Bedrock",
+      "description": "edrock is a set of automation, tooling and infrastructure for deploying production-level Kubernetes clusters with a GitOps flow. The goal is to make development teams productive through automating DevOps best practices through Continuous Integration and Continuous Delivery."
+    },
+    {
+      "title": "Certified Accountants",
+      "description": "All members of our team are certified accountants."
+    },
+    {
+      "title": "Tax Compliance",
+      "description": "We stay up to date on the latest changes to the tax code."
+    }
+  ]
+  
