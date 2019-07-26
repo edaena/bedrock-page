@@ -1,7 +1,7 @@
 [
     {
       "title": "1. Define your Kubernetes deployment",
-      "description": "Create high-level deployment definitions for your Kubernetes Cluster using <a href=\"https://github.com/microsoft/fabrikate\">Fabrikate</a>. Fabrikate is a tool that allows you to write <a href=\"https://en.wikipedia.org/wiki/Don%27t_repeat_yourself\">DRY</a> resource definition and configuration for multiple environments. It leverages the Helm chart ecosystem."
+      "description": "Create high-level deployment definitions for your Kubernetes Cluster using <a href=\"https://github.com/microsoft/fabrikate\">Fabrikate</a>. Fabrikate is a tool that allows you to write <a href=\"https://en.wikipedia.org/wiki/Don%27t_repeat_yourself\">DRY</a> resource definition and configuration for multiple environments. It leverages the <a href=\"https://helm.sh/\">Helm</a> chart ecosystem."
     },
     {
       "title": "2. Setup a CI/CD pipeline",
