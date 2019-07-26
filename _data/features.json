@@ -6,7 +6,7 @@
   },
   {
     "title": "Deployment Definitions",
-    "description": "High level <a href=\"https://kubernetes.io/\">Kubernetes</a> deployment definitions",
+    "description": "High level <a href=\"https://kubernetes.io/\">Kubernetes</a> deployment definitions with <a href=\"https://github.com/microsoft/fabrikate\">Fabrikate</a>",
     "image": "images/features/kubernetes.png"
   },
   {
