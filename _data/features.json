@@ -1,17 +1,17 @@
 [
   {
     "title": "Infrastructure",
-    "description": "Pre-configured Terraform environment deployment",
+    "description": "Pre-configured <a href=\"https://www.terraform.io/\">Terraform</a> environment deployment",
     "image": "images/features/terraform.png"
   },
   {
     "title": "Deployment Definitions",
-    "description": "High level Kubernetes deployment definitions",
+    "description": "High level <a href=\"https://kubernetes.io/\">Kubernetes</a> deployment definitions",
     "image": "images/features/kubernetes.png"
   },
   {
     "title": "GitOps",
-    "description": "Secure, auditable production workflow",
+    "description": "Secure, auditable production workflow using <a href=\"https://www.weave.works/oss/flux/\">Flux</a>",
     "image": "images/features/github.png"
   }
 ]
