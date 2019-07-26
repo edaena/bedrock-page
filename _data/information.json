@@ -1,15 +1,23 @@
 [
     {
-      "title": "Why Bedrock?",
-      "description": "Bedrock is a set of automation, tooling and infrastructure for deploying production-level Kubernetes clusters with a GitOps flow. The goal is to make development teams productive through automating DevOps best practices through Continuous Integration and Continuous Delivery."
+      "title": "1. Define your Kubernetes deployment",
+      "description": "Create high-level deployment definitions for your Kubernetes Cluster using Fabrikate. Fabrikate is a tool that allows you to write DRY resource definition and configuration for multiple environments. It leverages the Helm chart ecosystem."
     },
     {
-      "title": "Certified Accountants",
-      "description": "All members of our team are certified accountants."
+      "title": "2. Setup a CI/CD pipeline",
+      "description": "The CI/CD pipeline will generate Kubernetes resource manifests from the Fabrikate definitions."
     },
     {
-      "title": "Tax Compliance",
-      "description": "We stay up to date on the latest changes to the tax code."
+      "title": "3. Check-in the resource manifests to git repository",
+      "description": "The CI/CD pipeline automatically checks-in the generated resource manifests into a resource manifest git repository."
+    },
+    {
+      "title": "4. Set up infrastructure",
+      "description": "Setup your Kubernetes cluster infrastructure. Bedrock provides various Terraform templates that include Flux."
+    },
+    {
+       "title": "5. Automatically deploy resource manifests",
+       "description": "Once Flux is installed in the cluster, it will detect changes made to the resource manifest repository and apply those changes to the cluster."
     }
   ]
   
