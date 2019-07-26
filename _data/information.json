@@ -1,11 +1,11 @@
 [
     {
       "title": "1. Define your Kubernetes deployment",
-      "description": "Create high-level deployment definitions for your Kubernetes Cluster using Fabrikate. Fabrikate is a tool that allows you to write DRY resource definition and configuration for multiple environments. It leverages the Helm chart ecosystem."
+      "description": "Create high-level deployment definitions for your Kubernetes Cluster using <a href=\"https://github.com/microsoft/fabrikate\">Fabrikate</a>. Fabrikate is a tool that allows you to write <a href=\"https://en.wikipedia.org/wiki/Don%27t_repeat_yourself\">DRY</a> resource definition and configuration for multiple environments. It leverages the Helm chart ecosystem."
     },
     {
       "title": "2. Setup a CI/CD pipeline",
-      "description": "The CI/CD pipeline will generate Kubernetes resource manifests from the Fabrikate definitions."
+      "description": "The CI/CD pipeline will generate <a href=\"https://kubernetes.io/docs/concepts/cluster-administration/manage-deployment/\">Kubernetes resource manifests</a> from the Fabrikate definitions."
     },
     {
       "title": "3. Check-in the resource manifests to git repository",
@@ -13,11 +13,11 @@
     },
     {
       "title": "4. Set up infrastructure",
-      "description": "Setup your Kubernetes cluster infrastructure. Bedrock provides various Terraform templates that include Flux."
+      "description": "Setup your Kubernetes cluster infrastructure. Bedrock provides various <a href=\"https://www.terraform.io/\">Terraform</a> templates that include Flux."
     },
     {
        "title": "5. Automatically deploy resource manifests",
-       "description": "Once Flux is installed in the cluster, it will detect changes made to the resource manifest repository and apply those changes to the cluster."
+       "description": "Once <a href=\"https://www.weave.works/oss/flux/\">Flux</a> is installed in the cluster, it will detect changes made to the resource manifest repository and apply those changes to the cluster."
     }
   ]
   
