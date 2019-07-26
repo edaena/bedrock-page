@@ -2,16 +2,16 @@
   {
     "title": "Infrastructure",
     "description": "Pre-configured Terraform environment deployment",
-    "image": "images/components/terraform.png"
+    "image": "images/features/terraform.png"
   },
   {
     "title": "Deployment Definitions",
     "description": "High level Kubernetes deployment definitions",
-    "image": "images/components/kubernetes.png"
+    "image": "images/features/kubernetes.png"
   },
   {
     "title": "GitOps",
     "description": "Secure, auditable production workflow",
-    "image": "images/components/github.png"
+    "image": "images/features/github.png"
   }
 ]
